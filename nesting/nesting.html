@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Nesting Columns</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col1">
+				<h3> Column 1</h3>
+
+				<div class="col-md-6 nested-col1">
+					<h4>Nested Column 1</h4>
+				</div>
+				<div class="col-md-6 nested-col2">
+					<h4>Nested Column 2</h4>
+				</div>
+			</div>
+
+			<div class="col-md-6 col2">
+				<h3> Column 2</h3>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script type="javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

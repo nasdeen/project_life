@@ -1,0 +1,59 @@
+.main-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+}
+
+.menu{
+	display: flex;
+	min-height: 50px;
+	width: 80%;
+	background-color:blue;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.slider{
+	display: flex;
+	min-height: 300px;
+	width: 80%;
+	justify-content: center;
+	align-content: center;
+	background-color: blue;
+	margin-top: 20px;
+}
+
+.body{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	
+	
+}
+
+.body div{
+	height: 250px;
+	width: 250px;
+	background-color: yellow;
+	align-items: center;
+	margin: 20px 70px;
+}
+
+.footer{
+	/*display: flex;
+	flex-wrap: wrap;
+	background-color: brown;
+	margin-top: 20px;*/
+
+	display: flex;
+	min-height: 50px;
+	width: 80%;
+	background-color:blue;
+	justify-content: center;
+	align-content: center;
+	
+}
